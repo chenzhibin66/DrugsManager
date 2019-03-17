@@ -1,10 +1,10 @@
 package zhujiemian;
 
-import com.bean.Drug;
-import com.bean.Sell;
-import com.bean.Stock;
-import com.bean.Vip;
-import jiemian.*;
+import Bean.Drug;
+import Bean.Sell;
+import Bean.Stock;
+import Bean.Vip;
+import method.*;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
@@ -21,11 +21,11 @@ import java.util.Date;
 import java.util.Vector;
 
 public class HomeScreen extends JFrame {
-    private JLabel searchofyouxiaoqi,keyword, totalinprice,totaloutprice,profit,kwofsell,kwofstock,kwofvip, drugnameofyouxiaoqi, L1, L2, L3, L4, L5, L6, Medid, Medname, Medtype, Medcreate, contactKF, VipID, VipName, VipAge, VipPhone, VipMessage, Vipadress, stocknum, shengyuquantity, stockID, drugname, quantity, unitprice, totalprice, Vip, count;
+    private JLabel searchofyouxiaoqi, keyword, totalinprice, totaloutprice, profit, kwofsell, kwofstock, kwofvip, drugnameofyouxiaoqi, L1, L2, L3, L4, L5, L6, Medid, Medname, Medtype, Medcreate, contactKF, VipID, VipName, VipAge, VipPhone, VipMessage, Vipadress, stocknum, shengyuquantity, stockID, drugname, quantity, unitprice, totalprice, Vip, count;
     private JButton add1, add2, addofstock, resetofstock, searchofstock, query, alterdrug, altervip, delete1, delete2, destory, resetting, submitorder, resetorder, searchofalter, searchofvip;
-    private static JTextField begintimeText,endtimeText,totalinpriceText,totaloutpriceText,profitText,searchmedofsellText,nameTextFieldofAddMed, typeTextFieldofAddMed, createTextFieldofAddMed, alterMedid, alterMedname, alterMedtype, alterMedcreate, searchjTextField;
+    private static JTextField begintimeText, endtimeText, totalinpriceText, totaloutpriceText, profitText, searchmedofsellText, nameTextFieldofAddMed, typeTextFieldofAddMed, createTextFieldofAddMed, alterMedid, alterMedname, alterMedtype, alterMedcreate, searchjTextField;
     private JFrame myFrame;
-    private static JTextField searchofyouxiaoqiText,searchdrugnameText, drugidofstockText, drugnameofstockText, drugquantityText, dateofstockText, priceofstockText, sellpriceofstockText, alterMedidjTextField, alterMednamejTextField, alterMedtypejTextField, alterMedcreatejTextField, AddnameTextField, AddtypeTextField, AddcreateTextField, vipsearch, vipidjTextField, vipnamejTextField, vipagejTextField, vipphonejTextField, vipemailjTextField, vipaddressjTextField, stockidofsellText, mednameofsellText, quantityofsellText, unitpriceofsellText, vipidofsellText, countofsellText, vipofsellText, totalpriceofsellText, stockidofyouxiaoqiText, mednameofyouxiaoqiText, shengyuquantityText, searchofvipText;
+    private static JTextField searchofyouxiaoqiText, searchdrugnameText, drugidofstockText, drugnameofstockText, drugquantityText, dateofstockText, priceofstockText, sellpriceofstockText, alterMedidjTextField, alterMednamejTextField, alterMedtypejTextField, alterMedcreatejTextField, AddnameTextField, AddtypeTextField, AddcreateTextField, vipsearch, vipidjTextField, vipnamejTextField, vipagejTextField, vipphonejTextField, vipemailjTextField, vipaddressjTextField, stockidofsellText, mednameofsellText, quantityofsellText, unitpriceofsellText, vipidofsellText, countofsellText, vipofsellText, totalpriceofsellText, stockidofyouxiaoqiText, mednameofyouxiaoqiText, shengyuquantityText, searchofvipText;
     JTable table;
     DefaultTableModel tableModel;
     JPanel jPanelUP;
@@ -34,13 +34,13 @@ public class HomeScreen extends JFrame {
     float per;
 
     public HomeScreen() {
-        searchofyouxiaoqi=new JLabel("请输入药品名称：");
+        searchofyouxiaoqi = new JLabel("请输入药品名称：");
         kwofstock = new JLabel("请输入关键字：");
-        kwofsell=new JLabel("请输入药品名称：");
-        kwofvip=new JLabel("请输入手机号：");
-        totalinprice=new JLabel("总进价：");
-        totaloutprice=new JLabel("总售价:");
-        profit=new JLabel("总利润:");
+        kwofsell = new JLabel("请输入药品名称：");
+        kwofvip = new JLabel("请输入手机号：");
+        totalinprice = new JLabel("总进价：");
+        totaloutprice = new JLabel("总售价:");
+        profit = new JLabel("总利润:");
         L1 = new JLabel("药品编号：");
         L2 = new JLabel("药品名称");
         L3 = new JLabel("药品数量");
@@ -90,8 +90,8 @@ public class HomeScreen extends JFrame {
                 String s4 = unitpriceofsellText.getText();
                 String s5 = vipidofsellText.getText();
                 String s6 = countofsellText.getText();
-                String s7= totalpriceofsellText.getText();
-                Sell sell=new Sell();
+                String s7 = totalpriceofsellText.getText();
+                Sell sell = new Sell();
                 String slno = "";
                 SQLsever sqLsever = new SQLsever();
                 int l = sqLsever.getRowCountofSell();
@@ -141,7 +141,7 @@ public class HomeScreen extends JFrame {
                 String vipphone = vipphonejTextField.getText();
                 String vipemail = vipemailjTextField.getText();
                 String vipaddress = vipaddressjTextField.getText();
-                com.bean.Vip vip = new Vip();
+                Bean.Vip vip = new Vip();
                 vip.setVipname(vipname);
                 vip.setVipnum(vipid);
                 vip.setVipage(vipage);
@@ -203,7 +203,7 @@ public class HomeScreen extends JFrame {
                 Date date = new Date();
                 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
                 String ldate = dateFormat.format(date);
-                float totalprice=Float.parseFloat(quantity)*Float.parseFloat(inputprice);
+                float totalprice = Float.parseFloat(quantity) * Float.parseFloat(inputprice);
                 stock.setStocknum(sid);
                 stock.setDrugnum(id);
                 stock.setDrugname(n);
@@ -273,13 +273,13 @@ public class HomeScreen extends JFrame {
         mednameofyouxiaoqiText = new JTextField();
         shengyuquantityText = new JTextField();
         searchofvipText = new JTextField();
-        searchmedofsellText=new JTextField();
-        totalinpriceText=new JTextField();
-        totaloutpriceText=new JTextField();
-        profitText=new JTextField();
-        begintimeText=new JTextField();
-        endtimeText=new JTextField();
-        searchofyouxiaoqiText=new JTextField();
+        searchmedofsellText = new JTextField();
+        totalinpriceText = new JTextField();
+        totaloutpriceText = new JTextField();
+        profitText = new JTextField();
+        begintimeText = new JTextField();
+        endtimeText = new JTextField();
+        searchofyouxiaoqiText = new JTextField();
         myFrame = this;
         JDesktopPane desktopPane = new JDesktopPane();
         myFrame.add(desktopPane);
@@ -333,10 +333,10 @@ public class HomeScreen extends JFrame {
                 icontentpane.add(nameTextFieldofAddMed);
                 icontentpane.add(typeTextFieldofAddMed);
                 icontentpane.add(createTextFieldofAddMed);
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
             }
         });
@@ -423,10 +423,10 @@ public class HomeScreen extends JFrame {
                 icontentpane.add(alterMednamejTextField);
                 icontentpane.add(alterMedtypejTextField);
                 icontentpane.add(alterMedcreatejTextField);
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
                 //实现模糊动态查询
                 searchjTextField.getDocument().addDocumentListener(new DocumentListener() {
@@ -539,10 +539,10 @@ public class HomeScreen extends JFrame {
                 icontentpane.add(dateofstockText);
                 icontentpane.add(priceofstockText);
                 icontentpane.add(sellpriceofstockText);
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
             }
         });
@@ -661,10 +661,10 @@ public class HomeScreen extends JFrame {
                 icontentpane.add(vipphonejTextField);
                 icontentpane.add(vipemailjTextField);
                 icontentpane.add(vipaddressjTextField);
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
 
             }
@@ -696,7 +696,7 @@ public class HomeScreen extends JFrame {
                 String vipphone = vipphonejTextField.getText();
                 String vipemail = vipemailjTextField.getText();
                 String vipaddress = vipaddressjTextField.getText();
-                com.bean.Vip vip = new Vip();
+                Bean.Vip vip = new Vip();
                 //自动形成有规律的VipID
                 String vipid = "";
                 int ID = 1;
@@ -786,8 +786,8 @@ public class HomeScreen extends JFrame {
                 s.setLocation(150, 120);
                 icontentpane.add(s);
                 add(internalFrame);
-                kwofsell.setBounds(250,80,150,25);
-                searchmedofsellText.setBounds(370,80,200,25);
+                kwofsell.setBounds(250, 80, 150, 25);
+                searchmedofsellText.setBounds(370, 80, 200, 25);
                 stockID.setBounds(20, 250, 50, 25);
                 drugname.setBounds(230, 250, 60, 25);
                 quantity.setBounds(450, 250, 50, 25);
@@ -804,7 +804,7 @@ public class HomeScreen extends JFrame {
                 searchmedofsellText.getDocument().addDocumentListener(new DocumentListener() {
                     @Override
                     public void insertUpdate(DocumentEvent e) {
-                             updataSell();
+                        updataSell();
                     }
 
                     @Override
@@ -820,12 +820,9 @@ public class HomeScreen extends JFrame {
                 countofsellText.getDocument().addDocumentListener(new DocumentListener() {
                     @Override
                     public void insertUpdate(DocumentEvent e) {
-                        try
-                        {
+                        try {
                             drugActionMoney();
-                        }
-                        catch (Exception e1)
-                        {
+                        } catch (Exception e1) {
                             e1.printStackTrace();
                         }
                     }
@@ -898,10 +895,10 @@ public class HomeScreen extends JFrame {
                 icontentpane.add(countofsellText);
                 icontentpane.add(vipofsellText);
                 icontentpane.add(totalpriceofsellText);
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
 
 
@@ -968,14 +965,14 @@ public class HomeScreen extends JFrame {
                 s.setLocation(130, 100);
                 icontentpane.add(s);
                 add(internalFrame);
-                searchofyouxiaoqi.setBounds(150,60,150,25);
+                searchofyouxiaoqi.setBounds(150, 60, 150, 25);
                 stocknum.setBounds(40, 250, 60, 25);
                 drugnameofyouxiaoqi.setBounds(280, 250, 80, 25);
                 shengyuquantity.setBounds(500, 250, 60, 25);
                 stockidofyouxiaoqiText.setBounds(120, 250, 100, 25);
                 mednameofyouxiaoqiText.setBounds(360, 250, 100, 25);
                 shengyuquantityText.setBounds(570, 250, 100, 25);
-                searchofyouxiaoqiText.setBounds(300,60,150,25);
+                searchofyouxiaoqiText.setBounds(300, 60, 150, 25);
                 icontentpane.add(stockidofyouxiaoqiText);
                 icontentpane.add(searchofyouxiaoqiText);
                 icontentpane.add(mednameofyouxiaoqiText);
@@ -1000,20 +997,18 @@ public class HomeScreen extends JFrame {
                         updataYouxiaoqi();
                     }
                 });
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
 
             }
         });
         //盈利
-        n2.addActionListener(new ActionListener()
-        {
+        n2.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e)
-            {
+            public void actionPerformed(ActionEvent e) {
                 JInternalFrame internalFrame = new JInternalFrame("利润查询", true, true, true, true);
                 internalFrame.setSize(new Dimension(500, 700));
                 internalFrame.setLayout(null);
@@ -1029,11 +1024,11 @@ public class HomeScreen extends JFrame {
                     }
                 };
                 DefaultTableModel tableModel = (DefaultTableModel) table.getModel();
-                SQLsever sss=new SQLsever();
+                SQLsever sss = new SQLsever();
                 sss.ConnectSQL();
                 String k1 = sss.selectPrfit();
                 String k2 = sss.selectSell();
-                Float k3=Float.parseFloat(k2)-Float.parseFloat(k1);
+                Float k3 = Float.parseFloat(k2) - Float.parseFloat(k1);
                 totalinpriceText.setText(k1);
                 totaloutpriceText.setText(k2);
                 totalinpriceText.setEditable(false);
@@ -1053,15 +1048,15 @@ public class HomeScreen extends JFrame {
                 icontentpane.add(totaloutpriceText);
                 icontentpane.add(profitText);
                 table.setSize(500, 100);
-                JScrollPane ss= new JScrollPane(table);
+                JScrollPane ss = new JScrollPane(table);
                 ss.setSize(500, 100);
                 ss.setLocation(130, 130);
                 icontentpane.add(ss);
                 add(internalFrame);
-                ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-                JLabel label1=new JLabel(icon);
-                label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-                icontentpane.add(label1,new Integer(Integer.MIN_VALUE));
+                ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+                JLabel label1 = new JLabel(icon);
+                label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+                icontentpane.add(label1, new Integer(Integer.MIN_VALUE));
                 ((JPanel) icontentpane).setOpaque(false);
             }
         });
@@ -1113,10 +1108,10 @@ public class HomeScreen extends JFrame {
                 JOptionPane.showMessageDialog(null, "数据删除成功！", "提示信息", JOptionPane.WARNING_MESSAGE);
             }
         });
-        ImageIcon icon=new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
-        JLabel label1=new JLabel(icon);
-        label1.setBounds(0,0,icon.getIconWidth(),icon.getIconHeight());
-         this.getLayeredPane().add(label1,new Integer(Integer.MIN_VALUE));
+        ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\Desktop\\3.jpg");
+        JLabel label1 = new JLabel(icon);
+        label1.setBounds(0, 0, icon.getIconWidth(), icon.getIconHeight());
+        this.getLayeredPane().add(label1, new Integer(Integer.MIN_VALUE));
         ((JPanel) this.getContentPane()).setOpaque(false);
         setTitle("药房管理系统主界面");
         setSize(new Dimension(800, 500));
@@ -1126,7 +1121,8 @@ public class HomeScreen extends JFrame {
         getContentPane().setLayout(new BorderLayout());//设置窗口布局为流式布局
 
     }
-//会员药品价格优惠
+
+    //会员药品价格优惠
     private float isNotVip() {
 
         SQLsever sqLsever2 = new SQLsever();
@@ -1146,192 +1142,160 @@ public class HomeScreen extends JFrame {
         String totalmount = quantityofsellText.getText();
         String buymount = countofsellText.getText();
         String unitprice = unitpriceofsellText.getText();
-        float p1=Float.parseFloat(unitprice);
-        float m=Float.parseFloat(buymount);
-        float t=Float.parseFloat(totalmount);
-        if (m <= t)
-        {
-            totalpriceofsellText.setText(String.valueOf(isNotVip()*m*p1));
-            System.out.println(isNotVip()*m*p1);
+        float p1 = Float.parseFloat(unitprice);
+        float m = Float.parseFloat(buymount);
+        float t = Float.parseFloat(totalmount);
+        if (m <= t) {
+            totalpriceofsellText.setText(String.valueOf(isNotVip() * m * p1));
+            System.out.println(isNotVip() * m * p1);
         } else {
             JOptionPane.showMessageDialog(null, "购买数量不能大于库存量！");
         }
     }
 
-    private void drugsearch(String sql,int i)
-    {
-        SQLsever sqLsever5=new SQLsever();
+    private void drugsearch(String sql, int i) {
+        SQLsever sqLsever5 = new SQLsever();
         conn = sqLsever5.Connect();
         ResultSet rs2;
-        try
-        {
-            int rowcount=tableModel.getRowCount()-1;
-            if(rowcount !=-1)
-            {
-                for (int i1=rowcount;i1>=0;i1--)
-                {
+        try {
+            int rowcount = tableModel.getRowCount() - 1;
+            if (rowcount != -1) {
+                for (int i1 = rowcount; i1 >= 0; i1--) {
                     tableModel.removeRow(i1);
                 }
                 tableModel.setRowCount(0);
             }
-            Statement statement=conn.createStatement();
-            rs2=statement.executeQuery(sql);
-            String [] data=new String[4];
-            while(rs2.next())
-            {
-                for (int j=1;j<=4;j++)
-                {
-                    data[j-1]= rs2.getString(j);
+            Statement statement = conn.createStatement();
+            rs2 = statement.executeQuery(sql);
+            String[] data = new String[4];
+            while (rs2.next()) {
+                for (int j = 1; j <= 4; j++) {
+                    data[j - 1] = rs2.getString(j);
                 }
                 tableModel.addRow(data);
             }
             conn.close();
-        }
-        catch (Exception err)
-        {
+        } catch (Exception err) {
             err.printStackTrace();
         }
     }
 
-    private void vipsearch(String sql,int i)
-    {
-        SQLsever sqLsever5=new SQLsever();
+    private void vipsearch(String sql, int i) {
+        SQLsever sqLsever5 = new SQLsever();
         conn = sqLsever5.Connect();
         ResultSet rs2;
-        try
-        {
-            int rowcount=tableModel.getRowCount()-1;
-            if(rowcount !=-1)
-            {
-                for (int i1=rowcount;i1>=0;i1--)
-                {
+        try {
+            int rowcount = tableModel.getRowCount() - 1;
+            if (rowcount != -1) {
+                for (int i1 = rowcount; i1 >= 0; i1--) {
                     tableModel.removeRow(i1);
                 }
                 tableModel.setRowCount(0);
             }
-            Statement statement=conn.createStatement();
-            rs2=statement.executeQuery(sql);
-            String [] data=new String[6];
-            while(rs2.next())
-            {
-                for (int j=1;j<=6;j++)
-                {
-                    data[j-1]= rs2.getString(j);
+            Statement statement = conn.createStatement();
+            rs2 = statement.executeQuery(sql);
+            String[] data = new String[6];
+            while (rs2.next()) {
+                for (int j = 1; j <= 6; j++) {
+                    data[j - 1] = rs2.getString(j);
                 }
                 tableModel.addRow(data);
             }
             conn.close();
-        }
-        catch (Exception err)
-        {
+        } catch (Exception err) {
             err.printStackTrace();
         }
     }
 
-    private void sellsearch(String sql,int i)
-    {
-        SQLsever sqLsever5=new SQLsever();
+    private void sellsearch(String sql, int i) {
+        SQLsever sqLsever5 = new SQLsever();
         conn = sqLsever5.Connect();
         ResultSet rs3;
-        try
-        {
-            int rowcount=tableModel.getRowCount()-1;
-            if(rowcount !=-1)
-            {
-                for (int i1=rowcount;i1>=0;i1--)
-                {
+        try {
+            int rowcount = tableModel.getRowCount() - 1;
+            if (rowcount != -1) {
+                for (int i1 = rowcount; i1 >= 0; i1--) {
                     tableModel.removeRow(i1);
                 }
                 tableModel.setRowCount(0);
             }
-            Statement statement=conn.createStatement();
-            rs3=statement.executeQuery(sql);
-            String [] data=new String[6];
-            while(rs3.next())
-            {
-                for (int j=1;j<=6;j++)
-                {
-                    data[j-1]= rs3.getString(j);
+            Statement statement = conn.createStatement();
+            rs3 = statement.executeQuery(sql);
+            String[] data = new String[6];
+            while (rs3.next()) {
+                for (int j = 1; j <= 6; j++) {
+                    data[j - 1] = rs3.getString(j);
                 }
                 tableModel.addRow(data);
             }
             conn.close();
-        }
-        catch (Exception err)
-        {
+        } catch (Exception err) {
             err.printStackTrace();
         }
     }
-    private void youxiaoqisearch(String sql,int i)
-    {
-        SQLsever sqLsever6=new SQLsever();
+
+    private void youxiaoqisearch(String sql, int i) {
+        SQLsever sqLsever6 = new SQLsever();
         conn = sqLsever6.Connect();
         ResultSet rs3;
-        try
-        {
-            int rowcount=tableModel.getRowCount()-1;
-            if(rowcount !=-1)
-            {
-                for (int i1=rowcount;i1>=0;i1--)
-                {
+        try {
+            int rowcount = tableModel.getRowCount() - 1;
+            if (rowcount != -1) {
+                for (int i1 = rowcount; i1 >= 0; i1--) {
                     tableModel.removeRow(i1);
                 }
                 tableModel.setRowCount(0);
             }
-            Statement statement=conn.createStatement();
-            rs3=statement.executeQuery(sql);
-            String [] data=new String[5];
-            while(rs3.next())
-            {
-                for (int j=1;j<=5;j++)
-                {
-                    data[j-1]= rs3.getString(j);
+            Statement statement = conn.createStatement();
+            rs3 = statement.executeQuery(sql);
+            String[] data = new String[5];
+            while (rs3.next()) {
+                for (int j = 1; j <= 5; j++) {
+                    data[j - 1] = rs3.getString(j);
                 }
                 tableModel.addRow(data);
             }
             conn.close();
-        }
-        catch (Exception err)
-        {
+        } catch (Exception err) {
             err.printStackTrace();
         }
     }
 
-    private void updatadrug()
-    {
+    private void updatadrug() {
         String s1 = null;
         s1 = searchjTextField.getText();
-        String sql="select * from 药品 where Dname like '%"+s1+"%'";
-        drugsearch(sql,5);
+        String sql = "select * from 药品 where Dname like '%" + s1 + "%'";
+        drugsearch(sql, 5);
     }
-    private void updatadrugofstock()
-    {
+
+    private void updatadrugofstock() {
         String s1 = null;
         s1 = searchdrugnameText.getText();
-        String sql1="select * from 药品 where Dname like '%"+s1+"%'";
-        drugsearch(sql1,5);
+        String sql1 = "select * from 药品 where Dname like '%" + s1 + "%'";
+        drugsearch(sql1, 5);
     }
-    private void updataVip()
-    {
-        String s2=null;
-        s2=searchofvipText.getText();
-        String sql2="select * from 会员 where Cphone like '%"+s2+"%'";
-        vipsearch(sql2,7);
+
+    private void updataVip() {
+        String s2 = null;
+        s2 = searchofvipText.getText();
+        String sql2 = "select * from 会员 where Cphone like '%" + s2 + "%'";
+        vipsearch(sql2, 7);
     }
-    private void updataSell()
-    {
-        String s3=null;
-        s3=searchmedofsellText.getText();
-        String sql3="select * from v_库存表 where Dname like '%"+s3+"%'";
-        sellsearch(sql3,7);
+
+    private void updataSell() {
+        String s3 = null;
+        s3 = searchmedofsellText.getText();
+        String sql3 = "select * from v_库存表 where Dname like '%" + s3 + "%'";
+        sellsearch(sql3, 7);
     }
-    private void updataYouxiaoqi()
-    {
-        String s4=null;
-        s4=searchmedofsellText.getText();
-        String sql3="select * from v_youxiaoqi where Dname like '%"+s4+"%'";
-        youxiaoqisearch(sql3,6);
+
+    private void updataYouxiaoqi() {
+        String s4 = null;
+        s4 = searchmedofsellText.getText();
+        String sql3 = "select * from v_youxiaoqi where Dname like '%" + s4 + "%'";
+        youxiaoqisearch(sql3, 6);
     }
+
     public static void main(String[] args) {
         new HomeScreen().setVisible(true);
     }

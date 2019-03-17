@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec41190a-aa14-4861-be44-77acdd779820" name="Default" comment="" />
+    <list default="true" id="ec41190a-aa14-4861-be44-77acdd779820" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/C3P0Utils/C3P0Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/PutinProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/jiemian/SQLsever.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/jiemian/SQLsever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$16$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$16$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$16$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$16$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$18$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$18$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/课程设计/zhujiemian/HomeScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bean/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bean/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bean/Sell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Sell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bean/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bean/Vip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Vip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/DeleteMed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/DeleteMed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/DeleteMed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/DeleteVip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/DeleteVip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/DeleteVip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinProfit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/PutinStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/PutinStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinVip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/PutinVip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/PutinVip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/Putinyouxiaoqi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/Putinyouxiaoqi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/Putinyouxiaoqi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/SQLsever.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/SQLsever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/SQLsever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/ShortDrug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/ShortDrug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/ShortDrug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/Sign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/Sign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/StockView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/StockView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/StockView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/myDesign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/myDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/myDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/myWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jiemian/myWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/myWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhujiemian/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhujiemian/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课程设计.iml" beforeDir="false" afterPath="$PROJECT_DIR$/课程设计.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +66,47 @@
       <FILTER>zhujiemian.*</FILTER>
     </SUITE>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1611142052">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="14" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="14" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="340" />
+          <entry key="xml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="340" />
+          <entry key="XML" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PutinProfit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/PutinProfit.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/PutinProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="-198">
+              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,29 +114,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PutinStock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/PutinStock.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/PutinStock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="-165">
+              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/myWindow.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/PutinStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="231">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeScreen.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zhujiemian/HomeScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18252">
-              <caret line="761" selection-start-line="761" selection-end-line="761" />
+            <state relative-caret-position="3720">
+              <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,55 +144,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="课程设计.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/课程设计.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/PutinVip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-223">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLsever.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/SQLsever.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/SQLsever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="-3564">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteMed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/DeleteMed.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/StockView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="-553">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteVip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/DeleteVip.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/Putinyouxiaoqi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PutinVip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/PutinVip.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/ShortDrug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+            <state relative-caret-position="231">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Putinyouxiaoqi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jiemian/Putinyouxiaoqi.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/method/Sign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="297">
+              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -125,6 +216,9 @@
     <findStrings>
       <find>添加</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,26 +243,28 @@
         <option value="$PROJECT_DIR$/src/com/bean/Supplier.java" />
         <option value="$PROJECT_DIR$/src/com/bean/Drug.java" />
         <option value="$PROJECT_DIR$/src/com/bean/Lock.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/PutinVip.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/ShortDrug.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/DeleteVip.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/DeleteMed.java" />
         <option value="$PROJECT_DIR$/src/jiemian/PuutinStock.java" />
         <option value="$PROJECT_DIR$/src/jiemian/selectViewStock.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/StockView.java" />
         <option value="$PROJECT_DIR$/src/zhujiemian/drugActionMoney.java" />
         <option value="$PROJECT_DIR$/src/jiemian/ResearchDrug.java" />
         <option value="$PROJECT_DIR$/src/com/bean/Stock.java" />
         <option value="$PROJECT_DIR$/src/com/bean/Sell.java" />
         <option value="$PROJECT_DIR$/src/jiemian/SelectProfit.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/C3P0Utils/C3P0Utils.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/DeleteMed.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/DeleteVip.java" />
         <option value="$PROJECT_DIR$/src/jiemian/myDesign.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/SQLsever.java" />
-        <option value="$PROJECT_DIR$/src/jiemian/Sign.java" />
-        <option value="$PROJECT_DIR$/src/zhujiemian/HomeScreen.java" />
         <option value="$PROJECT_DIR$/src/jiemian/PutinProfit.java" />
         <option value="$PROJECT_DIR$/src/jiemian/PutinStock.java" />
         <option value="$PROJECT_DIR$/src/jiemian/PutinStorage.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/PutinVip.java" />
         <option value="$PROJECT_DIR$/src/jiemian/Putinyouxiaoqi.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/ShortDrug.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/Sign.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/SQLsever.java" />
+        <option value="$PROJECT_DIR$/src/jiemian/StockView.java" />
+        <option value="$PROJECT_DIR$/src/zhujiemian/HomeScreen.java" />
       </list>
     </option>
   </component>
@@ -183,9 +279,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-25" />
@@ -247,50 +340,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="课程设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="课程设计" type="462c0819:PsiDirectoryNode" />
+              <item name="DrugsManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugsManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="课程设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="课程设计" type="462c0819:PsiDirectoryNode" />
+              <item name="DrugsManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugsManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="课程设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="课程设计" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="课程设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="课程设计" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jiemian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="课程设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="课程设计" type="462c0819:PsiDirectoryNode" />
+              <item name="DrugsManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrugsManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zhujiemian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DrugsManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="total&#9;PSI&#9;JAVA://zhujiemian.HomeScreen#totaloutpriceText&#10;searchmed&#9;PSI&#9;JAVA://zhujiemian.HomeScreen#searchmedofsellText&#10;add&#9;PSI&#9;JAVA://zhujiemian.HomeScreen#add2&#10;addof&#9;PSI&#9;JAVA://zhujiemian.HomeScreen#addofstock" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552814134585" />
+    <property name="last_opened_file_path" value="D:/资源/mssql-jdbc-6.4.0.jre9.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -311,6 +397,9 @@
   <component name="RunManager" selected="Application.myDesign">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AddMed (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zhujiemian.AddMed" />
@@ -322,6 +411,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="HomeScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zhujiemian.HomeScreen" />
@@ -333,6 +425,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="JInternalFrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test2.JInternalFrameDemo" />
@@ -344,6 +439,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MyJRame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chenzhibin.MyJRame" />
@@ -355,58 +453,43 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="myDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jiemian.myDesign" />
+      <option name="MAIN_CLASS_NAME" value="method.myDesign" />
       <module name="课程设计" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jiemian.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.myDesign" />
@@ -441,44 +524,45 @@
       <workItem from="1531401772984" duration="605000" />
       <workItem from="1531465094265" duration="66000" />
       <workItem from="1532067000756" duration="376000" />
+      <workItem from="1552810644419" duration="3292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3105000" />
+    <option name="totallyTimeSpent" value="6397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32994652" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2626539" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16420911" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24973261" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16210938" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24973261" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973261" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3502052" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26241136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.34893617" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973261" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32994652" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +581,6 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -505,130 +588,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jiemian/myWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/myDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <marker date="1530495173351" expanded="true" signature="2894:2904" ph=" { " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chenzhibin/PharmacySwing.java" />
     <entry file="file://$PROJECT_DIR$/src/chenzhibin/PharmacySwing.java" />
     <entry file="file://$PROJECT_DIR$/src/chenzhibin/SqlHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/jiemian/ShowDialog.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1816" column="16" selection-start-line="1816" selection-start-column="16" selection-end-line="1816" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Component.java" />
     <entry file="file://$PROJECT_DIR$/src/jiemian/test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JRadioButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
-          <caret line="85" selection-start-line="85" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JRadioButton.java" />
     <entry file="file://$PROJECT_DIR$/src/AddMed.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="1112" selection-start-line="1112" selection-end-line="1112" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Container.java" />
     <entry file="file://$PROJECT_DIR$/src/test2/JInternalFrameDemo.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JDesktopPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Dimension.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JDesktopPane.java" />
     <entry file="file://$PROJECT_DIR$/src/zhujiemian/AddMed.java" />
     <entry file="file://$PROJECT_DIR$/src/chenzhibin/Test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="4398" column="16" selection-start-line="4398" selection-start-column="16" selection-end-line="4398" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java" />
     <entry file="file://$PROJECT_DIR$/src/jiemian/Login.java" />
     <entry file="file://$PROJECT_DIR$/src/jiemian/User.java" />
     <entry file="file://$PROJECT_DIR$/src/chenzhibin/MyJRame.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/bean/Lock.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
           <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/ShortDrug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bean/Vip.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JTextField.java" />
+    <entry file="file://$PROJECT_DIR$/src/Bean/Vip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
           <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JMenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/资源/Microsoft JDBC Driver 6.4 for SQL Server/sqljdbc_6.4/chs/mssql-jdbc-6.4.0.jre9.jar!/com/microsoft/sqlserver/jdbc/SQLServerException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JMenuItem.java" />
+    <entry file="jar://D:/资源/Microsoft JDBC Driver 6.4 for SQL Server/sqljdbc_6.4/chs/mssql-jdbc-6.4.0.jre9.jar!/com/microsoft/sqlserver/jdbc/SQLServerException.class" />
     <entry file="file://$PROJECT_DIR$/src/jiemian/selectViewStock.java" />
     <entry file="file://$PROJECT_DIR$/src/zhujiemian/drugActionMoney.java" />
     <entry file="file://$PROJECT_DIR$/src/jiemian/ResearchDrug.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/bean/Drug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bean/Sell.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/Sell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
@@ -637,134 +634,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jiemian/SelectProfit.java" />
     <entry file="file://$PROJECT_DIR$/src/com/bean/Supplier.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/bean/Stock.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.sql/java/sql/ResultSetMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="641" column="29" selection-start-line="641" selection-start-column="29" selection-end-line="641" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bean/User.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.sql/java/sql/ResultSetMetaData.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Vector.java" />
+    <entry file="file://$PROJECT_DIR$/src/Bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/myDesign.java">
+    <entry file="file://$PROJECT_DIR$/课程设计.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/Drug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-          <folding>
-            <marker date="1530495173351" expanded="true" signature="2894:2904" ph=" { " />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/Sign.java">
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="102" column="9" selection-start-line="87" selection-start-column="8" selection-end-line="102" selection-end-column="9" />
+        <state relative-caret-position="-297">
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/StockView.java">
+    <entry file="file://$PROJECT_DIR$/src/C3P0Utils/C3P0Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/PutinStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/PutinProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="429">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/PutinStock.java">
+    <entry file="file://$PROJECT_DIR$/src/method/DeleteMed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="429">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/myWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/method/DeleteVip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="-157">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/myDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/myWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/DeleteMed.java">
+    <entry file="file://$PROJECT_DIR$/src/method/PutinProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/DeleteVip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/PutinVip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/Putinyouxiaoqi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课程设计.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhujiemian/HomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18252">
-          <caret line="761" selection-start-line="761" selection-end-line="761" />
+        <state relative-caret-position="-198">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jiemian/SQLsever.java">
+    <entry file="file://$PROJECT_DIR$/src/method/PutinStock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="-165">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/PutinStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/PutinVip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/Putinyouxiaoqi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/ShortDrug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/SQLsever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3564">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/method/StockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhujiemian/HomeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -828,7 +845,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -836,7 +852,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
